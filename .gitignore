@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python dotenv and config
+.env
+*.env
+.env.*
+
+# Config files
+config/settings_local.py
+/secrets.json
+
+# Compiled files
+*.so
+
+# Migrations (optional: keep if you want to version control migrations)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/*.log
+**/migrations/*.tmp
+# Descomente a linha abaixo se **não quiser versionar** as migrações
+# **/migrations/*.py
+
+# Test & coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+coverage.xml
+pytest_cache/
+.cache/
+.pytest_cache/
+nosetests.xml
+test-results/
+
+# MyPy & other tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.pylint.d/
+
+# Docker
+*.pid
+docker-compose.override.yml
